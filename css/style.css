@@ -1,0 +1,218 @@
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: red;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50px;
+}
+
+.ring{
+    width: 100px;
+    height: 100px;
+    background:white;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+.ellipse{
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius:100px/50px;
+}
+
+.triangleBottom{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-bottom-color: red;
+}
+
+.triangleTop{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-top-color: red;
+}
+
+.triangleLeft{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-left-color: red;
+}
+
+.triangleRight{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-right-color: red;
+}
+
+.triangleLeftTop{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-left-color: red;
+    border-bottom-width: 0px;
+}
+
+.triangleLeftBottom{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-left-color: red;
+    border-top-width: 0px;
+}
+
+.triangleRightTop{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-right-color: red;
+    border-bottom-width: 0px;
+}
+
+.triangleRightBottom{
+    width: 0px;
+    height: 0px;
+    border: 100px solid transparent;
+    border-right-color: red;
+    border-top-width: 0px;
+}
+
+.parallelogram{
+    width: 200px;
+    height: 150px;
+    background: red;
+    margin-left: 50px;
+    transform: skew(-30deg);
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+}
+
+.trapezoid{
+    width: 100px;
+    background: transparent;
+    border: 100px solid transparent;
+    border-bottom-color: red;
+}
+
+.fivePointedStar{
+    width: 0px;
+    height: 0px;
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+}
+
+.fivePointedStar:before{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    display: block;
+    content: "";
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 80px solid red;
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+    top:-45px;
+    left:-61px;
+}
+
+.fivePointedStar:after{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    display: block;
+    content: "";
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    transform: rotate(-70deg);
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+    top:3px;
+    left:-105px;
+}
+
+.yinyang{
+    position: relative;
+    display: block;
+    width: 96px;
+    height: 48px;
+    background: white;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.yinyang:before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left:0;
+    top:50%;
+    background: white;
+    border-color:red;
+    border-style: solid;
+    border-width:18px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.yinyang:after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left:50%;
+    top:50%;
+    background: red;
+    border-color:white;
+    border-style: solid;
+    border-width:18px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
